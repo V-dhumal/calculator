@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="calculator">Calculator</h1>
+        <div class="calculator-container">
+        <input type="text" class="calculator-screen" id="input">
+        <div class="buttons-container">
+            <p>
+                <button type="button" class="btn btn-special" onclick="pressKey('/')">/</button>
+                <button type="button" class="btn btn-special" onclick="pressKey('*')">*</button>
+                <button type="button"class="btn btn-special" onclick="pressKey('+')">+</button>
+                <button type="button"class="btn btn-special" onclick="pressKey('-')">-</button>
+
+                <button type="button" class="btn btn-special" onclick="pressKey('[]')">{}</button>
+                <button type="button" class="btn btn-special" onclick="pressKey('%')">%</button>
+                <button type="button"class="btn btn-special" onclick="pressKey('^')">^</button>
+                <button type="button"class="btn btn-special" onclick="pressKey('()')">()</button>
+
+                <button type="button"class="btn" onclick="pressKey(9)">9</button>
+                <button type="button"class="btn" onclick="pressKey(8)">8</button>
+                <button type="button"class="btn" onclick="pressKey(7)">7</button>
+                <button type="button"class="btn" onclick="pressKey(6)">6</button>
+                <button type="button"class="btn" onclick="pressKey(5)">5</button>
+                <button type="button"class="btn" onclick="pressKey(4)">4</button>
+                <button type="button"class="btn" onclick="pressKey(3)">3</button>
+                <button type="button"class="btn" onclick="pressKey(2)">2</button>
+                <button type="button"class="btn" onclick="pressKey(1)">1</button>
+                <button type="button"class="btn" onclick="pressKey(0)">0</button>
+                <button type="button"class="btn" onclick="pressKey('.')">.</button>
+
+                <button class="btn btn-equal" onclick="calculate()">=</button>
+            </p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</HTML>
